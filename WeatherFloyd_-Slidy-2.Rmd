@@ -1,0 +1,39 @@
+---
+title: "Examining Weather in Changi"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Weather Analysis Dataset
+Purpose: Determine the correlation between the three elements in the dataset
+
+1.Data from  
+
+2.November 2017
+
+3.Rainfall, Temperature, Wind Speed
+
+
+
+## Summary of Weather data
+
+Table of summary statictics
+```{r}
+summary(nottem)
+```
+
+
+
+## Plot of Weather data
+```{r fig.width=10, fig.height=6}
+plot(nottem)
+```
+
+##Further Analysis
+
+1.Expand the dataset
+
+2.ANOVA 
