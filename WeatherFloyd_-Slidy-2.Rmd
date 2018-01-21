@@ -24,6 +24,7 @@ Table of summary statictics
 ```{r}
 summary(nottem)
 ```
+## this will be replaced with actual weather data from Changi (Singapore)
 
 
 
@@ -31,7 +32,7 @@ summary(nottem)
 ```{r fig.width=10, fig.height=6}
 plot(nottem)
 ```
-
+## basic plot and want to put in sliders and also options to select different values
 ##Further Analysis
 
 1.Expand the dataset
